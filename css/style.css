@@ -1,0 +1,243 @@
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Noto sams' sans-serif;
+}
+
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color:rgb(4, 4, 251);
+}
+
+#menu-h{
+    background-color:rgb(59, 70, 168);
+}
+
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a:hover{
+    background-color: rgb(206, 28, 28);
+}
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: rgb(0, 0, 0);
+}
+div{
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+  
+}
+.itens{
+    color: #3b15e2;
+    font-size: 30px;
+}
+   li{
+       font-weight: bold;
+       color: rgb(255, 251, 251);
+       font-size: 18px;
+       margin: 0 10px;
+
+   }
+div{
+
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(233, 14, 14);
+    padding: 15px 0;
+    color: aliceblue;
+    font-size: 13px ;
+    font-weight: bold;
+    margin:  0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;    
+}
+#menu-h ul li a{
+    color: aliceblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+    tel img{
+        left: -47px;
+        position: absolute;
+        margin-top: -51px;
+    }
+    
+    .main-login{
+        width: 102vw;
+        height: 80vh;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .left-login{
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: column;
+        flex-direction: column;
+        background-color: #3b06fa;
+       display: inline-block;
+    }
+    
+    
+    .left-login > h1 {
+        color: #e21515;
+        width: 100vw;
+        height: 15vh;
+        right: 15px;
+    }
+    .right-login{
+        width: 30vw;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .card-login > h1{
+        color: rgb(255, 0, 0);
+        font-weight: 800;
+        margin: 0;
+    }
+    
+    .textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    }
+    
+    .textfield > input{
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        padding: 2.2px;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 12pt;
+        box-shadow: 0px 10px 20px rgb(2, 2, 2);
+        outline: none;
+        box-sizing: border-box;
+    }
+    
+    .textfield > label{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+    }
+    
+    .textfield > input::placeholder{
+        color: rgb(0, 0, 0);
+    }
+    
+    .btn-login{
+        width: 80%;
+        padding: 16px 0px;
+        margin: 25px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: rgb(0, 0, 0);
+        background: rgb(0, 63, 251);
+        cursor: pointer;
+        
+    }
+
+    .btn-login:hover{
+        background-color: #ffffff;
+    }
+    .btn-login2{
+        width: 80%;
+        padding: 16px 0px;
+        margin: 25px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .btn-login2:hover{
+        background-color: #ff0000;
+    }
+    @media only screen and ( max-width: 600px){
+        .main-login{
+            flex-direction: column;
+        }
+    
+      
+    
+        .left-login > h1{
+            display: none;
+        }
+        .left-login{
+            width: 100%;
+            height: auto;
+        }
+        .right-login{
+            width: 100%;
+            height: auto;
+        }
+       
+    
+        .left-login-mg{
+            width: 50vw;
+            border-radius: 10%;
+        }
+    }
+    #mg{
+        border-radius: 10%;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans',sans-serif;
+    }
+    

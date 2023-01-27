@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>cadastro completo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <object data="menu.html" height="100px" width="100%"></object>
+
+    <form name="formulario1" method="POST" action="processa.php">
+        <div class="main-login">
+            <div class="right-login">
+                <div class="card-login">
+                    <div class="textfield"><label> Nome:</label><input name="nome"type="text" id="nomeUsuario"placeholder="digite seu nome"onchange="funcaoMaiuscula()"><br></div>
+                    <div class="textfield"><label> CPF:</label><input name="cpf"type="text" id="cpfUsuario"placeholder="digite seu CPF"onchange="funcaoMaiuscula()"><br></div>
+                    <div class="textfield"><label> Data nascimento:</label><input name="datade_nascimento"type="date"   id="data_nascimentoUsuario"placeholder="digite sua data de nascimento"onchange="funcaoMaiuscula()"><br></div>
+                    <div class="textfield"><label> Telefone:</label><input name="telefone"type="text" id="telefoneUsuario"placeholder="digite seu telefone"onchange="funcaoMaiuscula()"><br></div>
+                    <div class="textfield"><label>Cidade:</label><input name="cidade" type="text" id="cidadeUsuario"placeholder="digite sua cidade" onchange="funcaoMaiuscula()"> <br></div>
+                    <div class="textfield"><label> Senha:</label><input name="senha" type="password"placeholder="digite sua senha"> <br></div>
+                    <div class="textfield"><label><input type="submit" value="Cadastrar" class="btn-login2" onclick="return validarDados()"></label></div>
+                </div>
+            </div>
+        </div>
+       
+
+    </form>
+    <footer>
+        <p><center>@copyright Eder Sarmento - 2022</p></center> 
+    </footer>
+</body>
+</html>

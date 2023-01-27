@@ -1,0 +1,15 @@
+create database Ultima;
+use ultima;
+CREATE TABLE Aluno (
+  nome VARCHAR(40) NOT NULL,
+  cpf VARCHAR(35) NULL,
+  datade_nascimento DATE NULL,
+  telefone VARCHAR(30) NULL,
+  cidade VARCHAR(35) NULL,
+  senha VARCHAR(15) NULL,
+  PRIMARY KEY(Nome)
+);
+
+select *from aluno;
+
+
